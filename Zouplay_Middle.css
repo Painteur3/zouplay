@@ -142,12 +142,17 @@ a /* Tout les Href */
 	width: 200px; 
 	margin-right: 2%;
 	margin-left: 5%;
-	border: solid #2BA9E0 3px;
+	border: solid white 3px;
 	border-radius: 11px;
-	height: 150px;
+	height: 140px;
 	float: left;
 	background-color: #0b1626;
 	margin-top:  20px;
+}
+
+#sec1t:hover
+{
+	border: solid #2BA9E0 3px;
 }
 
 #sec2d /* Deux sections de gauche */
@@ -156,14 +161,18 @@ a /* Tout les Href */
 	width: 200px; 
 	margin-right: 5%;
 	margin-left: 2%;
-	border: solid #899BFC 3px;
+	border: solid white 3px;
 	border-radius: 11px;
-	height: 150px;
+	height: 145px;
 	float:right;
 	background-color: #0b1626;
 	margin-top:  20px;
 }
 
+#sec2d:hover
+{
+	border: solid #899BFC 3px;
+}
 .TIt /* Place des boutons */
 {
 	display: block;
@@ -174,14 +183,14 @@ a /* Tout les Href */
 .TIpt /* Autour du bouton */
 {
 	text-align:center;
-	border-bottom: solid 2.5px #2BA9E0;
 	border-radius: 10px;
 	font-size: 16px;
 	font-family: Arial Black, Gadget, fantasy;
-	color: #2BA9E0;
+	color: white;
 	margin-top: -0px;
 	padding: 2px;
 }
+
 
 #I2t /* Placer la description */
 {
@@ -206,11 +215,10 @@ a /* Tout les Href */
 .TIpd /* Autour du bouton */
 {
 	text-align:center;
-	border-bottom: solid 2.5px #899BFC;
 	border-radius: 10px;
 	font-size: 16px;
 	font-family: Arial Black, Gadget, fantasy;
-	color: #899BFC;
+	color: white;
 	margin-top: -0px;
 	padding: 2px;
 }
@@ -257,13 +265,14 @@ a /* Tout les Href */
 .js-modal-close /* bouton */
 {
 	color: grey;
-	background: #03060B; 
+	border: white 3px;
+	background-color: black;
 }
 
 .js-modal-close:hover /* bouton */
 {
 	color: white;
-	background: #03060B; 
+	background-color: black;
 }
 
 .modal{
