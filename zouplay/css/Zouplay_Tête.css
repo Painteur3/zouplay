@@ -1,0 +1,121 @@
+﻿html /* Base OK */
+{
+	background:#0E1E35;
+	/* border: solid 1px blue; /* Test */
+}
+
+img /* met les img à 100% OK */
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+header /* En tête pour le bloc bouton titre OK */
+{
+	background: #0b1626;  
+	border-bottom: solid #F9DBD2 3px;
+	border-radius: 18px;
+    margin-left: -8px; /* Mettre l'entête au centre */
+	position: fixed; /* Bloquer l'entête */
+	display: block; /* Créé block sans bouger */
+    width: 100%; /* Prends tte la largeur */
+/*  border: solid 2px white; /* Test */
+	padding-top: 8px; /* Avoir une plus grosse entête */
+	margin-top: -12px; /* Pour monter et recouvrir le haut de la page */
+}
+
+.titre /* Titre entre bouton OK */
+{
+	display: inline-block; /* Block qui se met à coter */
+	height: 80px; /* taille du block titre*/
+	width: 80%; /* taille du centre titre */
+	margin-left: 10%; /* espace à gauche */
+	margin-right: 10%; /* espace à droite */
+	margin-top: -16px; /* Monter le titre */
+	position: absolute; /* Position correcte */
+	text-align: center; /* Placer au centre */ 
+/*	border: solid orange 1px; /* Test */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+	text-shadow: 1px 1px 2px #F9DBD2;
+	color: #F9DBD2;
+	font-size: 75px;
+}
+
+.titre:hover /* Titre entre bouton OK */
+{
+	text-shadow: 1px 1px 2px #F9DBD2, 0 0 1em #F9DBD2, 0 0 0.2em #F9DBD2;
+}
+
+#Painteur /* Bonton OK */
+{
+	display: inline-block; /* Block qui se met à coter */
+	position: static; /* Ne bouge plus */
+	float: right; /* Place à droite */
+    width: 80px;
+}
+
+#Painteur:hover /* Bonton OK */
+{
+	border-right: solid #2AA9E0 4px;
+	border-radius: 14px;
+} 
+
+#Discord /* Bonton OK */
+{
+    display: inline-block; /* Block qui se met à coter */
+	position: static; /* Ne bouge plus */
+	top: 0;  /* Place en haut à gauche */
+	left:0;
+    width: 80px;
+	color: white; 
+}
+
+#Discord:hover /* Bonton OK */
+{
+	border-left: solid #F9DBD2 3.5px;
+	border-radius: 14px;
+	margin-right: -3.5px; /* évite que le titre décale */
+}
+
+#progress{ /* Barre avec java et html OK */
+	border-bottom: solid #F9DBD2 4px; /* barre */
+	margin-top: -85px; /* Changer le niveau de la barre */
+	height: 0px;
+	width: 0px;
+	position: fixed;
+	z-index: 9999; /* Peut être important si vous avez un menu en position fixe */ 
+}
+
+#I1E /* Placer l'image */
+{
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+#I1E2 /* Placer l'image */
+{
+	width: 35px;
+	height: 35px;
+	float: right;
+}
+
+footer /* Pied de page OK */ 
+	{
+		display: block;
+		color:white;
+		/* Placer texte */
+		text-align: center;
+		font-style:italic;
+		/* Bordur ect.. */
+		border-width:2px 0px 0px 0px;
+		border-style:solid ;
+		border-color:#0b1626;
+		padding:0 10px; /*marge du texte (intérieur de rectangle)*/
+        width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float:right;
+		margin-bottom: 2%;
+		margin-top: 25px;
+	}
