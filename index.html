@@ -562,55 +562,35 @@
   </section> <br>
 
  <!-- Contact Section --> <br>
- <section id="section-contact">
-  <form class="form-style-9">
-    <div class="row mar-bot40">
-      <div class="col-md-offset-3 col-md-6">
-        <div class="section-header">
-          <h2 class="section-heading animated" data-animation="bounceInUp">Nous Contacter</h2>
-          <p>Vous souhaitez un accompagnement, une demande particulière :
-            <br>
-            N'hésitez pas à nous contacter, nous serons ravis de répondre à vos attentes.</p>
-        </div>
-      </div>
-    </div>
-    <ul>
-    <li>
-        <input type="text" name="field1" class="field-style field-split align-left" placeholder="Nom" />
-        <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
-    
-    </li>
-    <li>
-        <input type="text" name="field3" class="field-style field-split align-left" placeholder="Téléphone" />
-        <input type="url" name="field4" class="field-style field-split align-right" placeholder="Entreprise" />
-    </li>
-    <li>
-    <input type="text" name="field3" class="field-style field-full align-none" placeholder="Objet" />
-    </li>
-    <li>
-    <textarea name="field5" class="field-style" placeholder="Message"></textarea>
-    </li>
-    <li>
-    <input type="submit" value="Send Message" />
-    </li>
-    </ul>
-    </form>
-  <?php
-  if (isset($_POST['message'])) {
-      $entete  = 'MIME-Version: 1.0' . "\r\n";
-      $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-      $entete .= 'From: webmaster@monsite.fr' . "\r\n";
-      $entete .= 'Reply-to: ' . $_POST['email'];
 
-      $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
-      <p><b>Email : </b>' . $_POST['email'] . '<br>
-      <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
-
-      $retour = mail('destinataire@free.fr', 'Envoi depuis page Contact', $message, $entete);
-      if($retour)
-          echo '<p>Votre message a bien été envoyé.</p>';
-  }
-  ?>
+ <form method="post">
+  <h2>NOUS CONTACTER</h2>
+  <p>Vous souhaitez un accompagnement, une demande particulière ou tout autre renseignement:</p>
+     <input id ="infox" type="nom" name="nom" placeholder="Nom" required>
+     <input id ="infox" type="entreprise" name="entreprise" placeholder="Entreprise" required>
+     <input id ="infox" type="email" name="email" placeholder="Email" required>
+     <input id ="infox" type="tel" name="tel" placeholder="Téléphone" required>
+     <input id ="intox" type="sujet" name="sujet" placeholder="Sujet" required>
+     <textarea id ="intox" name="message" placeholder="Message" required></textarea>
+     <input class ="boutonformu" type="submit" value="Envoyer">
+ </form>
+<!--
+ <?php
+ //message envoyé par mail 
+ if (isset($_POST['message'])) {
+    $message = '<h1>Message envoyé depuis la page Contact de ovatys.fr</h1><br>
+    Email : " . $_POST["email"] . "<br>
+    Tel : " . $_POST["tel"] . "<br>
+    Entreprise : " . $_POST["entreprise"] . "<br>
+    Message : " . htmlspecialchars($_POST["message"]) . ;
+// message envoyé à l'utilisateur avec un mail cohérent avec la boite mail + Résponse possible
+     $retour = mail('anthony.alexandre@ovatys.fr',  $_POST['email'] , $message, "From:contact@ovatys.fr" . "\r\n" . "Reply-to:" . $_POST["email"]);
+     if($retour) {
+         echo "<p>Votre message a bien été envoyé.</p>";
+     }
+ }
+ ?>
+-->
   </section>
 
   <section id="footer" class="section footer">
