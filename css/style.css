@@ -1032,7 +1032,28 @@ Media queries
 		margin:0;
 		padding:0;
 	}
+	.navbar .navbar-collapse ul.nav li {
+		border-bottom: 1px solid rgb(0, 0, 0);
+	}
+	section.featured {
+		padding-top: 80px;
+	}
+}
 
+@media (min-width: 767px) and (max-width: 991px) {
+	.navbar.navbar-fixed-top {
+		background-color:rgb(255, 255, 255);
+	}
+	.navbar .navbar-collapse ul.nav {
+		background-color: rgb(255, 255, 255);
+		width: 100%;
+		float: none;
+		margin:0;
+		padding:0;
+	}
+	.navbar .navbar-collapse ul.nav li {
+		border-bottom: 1px solid rgb(0, 0, 0);
+	}
 	section.featured {
 		padding-top: 80px;
 	}
