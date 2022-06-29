@@ -1013,7 +1013,12 @@ Media queries
 	}
 }
 
+@media only screen and (min-device-width : 979px) and (max-device-width : 1024px)  {
 
+	.navbar-nav {
+		margin-top: 20px;
+	}
+}
 
 @media (max-width: 992px) {
 
