@@ -1033,14 +1033,14 @@ Media queries
 		background-color:rgb(255, 255, 255);
 	}
 	.navbar .navbar-collapse ul.nav {
-		background-color: #444;
+		background-color: rgb(255, 230, 0);
 		width: 100%;
 		float: none;
 		margin:0;
 		padding:0;
 	}
 	.navbar .navbar-collapse ul.nav li {
-		border-bottom: 1px solid #666;
+		border-bottom: 1px solid rgb(255, 7, 7);
 	}
 	section.featured {
 		padding-top: 80px;
