@@ -1,0 +1,364 @@
+﻿/* le # pour allez avec les ID (ex: #p3) */
+/* Le . pour allez avec les CLASS (ex: p.p3) */
+
+div/* Block principal */
+	{
+		/* Block de 100% centré au milieu */
+		display: block; /* créé une zone */
+		width: 100%; /* Largeur */	
+	}
+	
+#div2/* Fond hors block */
+	{
+		/* Ne pas avoir de bors blancs */
+		position:absolute; 
+		top:0;
+		left:0;
+		background: fixed center repeat; /* center l'image et la bloquer */
+		-webkit-background-size: cover; /* pour Chrome et Safari */
+		-moz-background-size: cover; /* pour Firefox */
+		-o-background-size: cover; /* pour Opera */
+		background-size: cover; /* version standardisée */
+		/* Largeur 
+		width: 100%; */
+		/* Hauteur 
+		height: 100%; */
+		/* background: no-repeat; ne pas répétr l'image */
+	}
+
+#titre/* Titre / Entête */
+	{
+		display: block; /* Blocs placés les uns en dessous des autres */
+		color: C1F4FE;
+		text-shadow: 1px 1px 2px green, 0 0 1em #C1F4FE, 0 0 0.2em #C1F4FE; /* texte brillant */
+		text-align: center;
+		margin-top: auto; /* coller l'entête en haut */
+		width: 70%; /* Taille de la bannière au milieu des deux marges*/
+		margin-left: 15%;
+		margin-right: 15%;		/* les deux côtés */
+		/* border: 2px solid black;   Zone encadré */
+		font: oblique 150px Arial ; 
+		/* entourer de couleur un texte */
+		background: no-repeat;
+
+	}
+	
+#twitch /* Logo Twitch */
+	{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	color: white; 
+	font: 12px Arial ; 
+}
+
+#twitch:hover
+	{
+		border-left: solid #06b07b 3px;
+}
+#lestream /* Logo Lestream */
+	{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:60px;
+	color: white; 
+	font: 12px Arial ; 
+}
+
+#lestream:hover
+	{
+		border-right: solid #06b07b 3px;
+}
+
+#base /* Div du Nav et Prséentation */
+	{
+		display: block;
+		width: 100%;
+		padding-bottom: 100px;
+		
+}
+
+#nav1/* RS */
+	{
+		display: inline-block;
+	}
+
+
+#p2 /* Texte de présentation */
+	{
+		diplay: inline-block;
+		width: 50%; 		/*largeur*/
+		margin-right: 40px; /* décallage à gauche (marge) */
+		border-radius: 11px; /* Coins arrondis */
+		background-color: 2c1833;
+		border: solid #06b07b 3px; /*Encadrer */
+		margin-top: -100px;  /* remonter le cadre */
+		color:white;
+		font-family: arial; /*Police*/
+		float: right; /*coller à droite */
+		padding: 10px; /* tour du texte vide de 10px */
+}
+
+ul /* les marges de la nav1 */
+	{
+	diplay: inline-block;
+	border: solid #06b07b 3px;
+	background-color: #2c1833;
+	border-radius: 20px;
+	list-style-type: none; /* Retirer les points */
+	margin-top: -145px;
+	padding-top: 10px;
+	padding-bottom: 10px; /* vide au dessus et en dessous */
+	margin-left: 10px;
+	float:left;
+}	
+
+li/* Adapter les icônes RS */
+	{
+	width: 100px;
+	padding-right: 10px;
+}
+
+li:hover
+{
+		border-left: solid #06b07b 3px
+ }
+a /* retirer le souligné nav1 */
+	{
+	text-decoration:none; 
+	list-style: none; 
+}
+
+a.a2 /* Les boutons des sections */
+	{
+		padding: 10px 30px;
+		background: #2c1833;
+		color: #000000;
+		border-radius: 10px; /* Arrondir les coins */
+		color: white;
+		margin-top: 10px;
+		font-size: 17px;
+		font-family: impact;
+		border-top: solid #04f6fa 3px;
+}
+
+a.a2:hover /* Changement de couleur au survol */
+	{
+		color: #04f6fa;
+        border-bottom: solid #04f6fa 3px;
+	
+}
+#sections /* Toutes les sections */
+	{
+
+}
+
+#sec1 /* Section Cuisine */
+	{
+		display: block;
+		width: 650px; 
+		margin-right: 75px;
+		margin-left: 35px;
+		border: solid #04f6fa 3px;
+		border-radius: 11px;
+		height: 250px;
+		float:left;
+		margin-top: 35px;
+		background-color: 2c1833;
+		margin-bottom: 35px;
+
+	}
+	
+#photosec1 /* Photo de la section Cuisine */
+	{
+		display: inline-block;
+        width: 150px;
+        float:left;
+		margin-right: 150px;
+	    margin-left:50px;
+		margin-bottom:50px;
+		margin-right:50px;
+		margin-top: 20px;
+}
+
+#devp1 /* Texte cusine */
+	{
+		display: inline-block;
+		width: 350px;
+		padding-right: 50px;
+		padding-top: 20px;
+		font-size: 19px;
+		font-family: Arial;
+		color: white;
+		float:right;	
+}
+
+#sec2 /* Section Zelda */
+	{
+		display: inline-block;
+		width: 650px;
+		margin-right: 35px;
+		margin-left: 20px;
+		border: solid #04f6fa 3px;
+		border-radius: 11px;
+		height: 250px;
+		margin-bottom: 35px;
+		float:right;
+		background-color: 2c1833;
+		margin-top: 35px;
+
+	}
+
+#photosec2 /* Photo de la section Zelda */
+	{
+		display: inline-block;
+        width: 140px;
+        float:left;
+		margin-right: 150px;
+	    margin-left:50px;
+		margin-bottom:50px;
+		margin-right:50px;
+		margin-top: 20px;
+	}
+#devp2 /* Texte zelda */
+	{
+		display: inline-block;
+		width: 350px;
+		padding-right: 50px;
+		padding-top: 20px;
+		font-size: 19px;
+		font-family: Arial;
+		color: white;
+		float:right;
+}
+
+#sec3 /* Section Vidéos Ytb Twitch */
+	{
+		display: block;
+		width: 650px; 
+		margin-right: 75px;
+		margin-left: 35px;
+		border: solid #04f6fa 3px;
+		border-radius: 11px;
+		height: 250px;
+		margin-bottom: 35px;
+		float:left;
+		margin-top: 50px;
+		background-color: 2c1833;
+		margin-bottom: 50px;
+
+	}
+	
+#photosec3 /* Photo de la section Vidéos */
+	{
+
+		display: inline-block;
+        width: 150px;
+        float:left;
+		margin-right: 150px;
+	    margin-left:50px;
+		margin-bottom:50px;
+		margin-right:50px;
+		margin-top: 20px;
+}
+
+#devp3 /* Texte vidéos */
+{
+		display: inline-block;
+		width: 350px;
+		padding-right: 50px;
+		padding-top: 20px;
+		font-size: 19px;
+		font-family: Arial;
+		color: white;
+		float:right;
+        		
+}
+
+#sec4 /* Section Ratus */
+	{
+		display: inline-block;
+		width: 650px;
+		margin-right: 35px;
+		margin-left: 20px;
+		border: solid #04f6fa 3px;
+		border-radius: 11px;
+		height: 250px;
+		margin-bottom: 35px;
+		float:right;
+		background-color: 2c1833;
+		margin-top: 50px;
+	}
+	
+#photosec4 /* Photo de la section des Ratus */
+	{
+
+		display: inline-block;
+        width: 130px;
+        float:left;
+		margin-right: 150px;
+	    margin-left:50px;
+		margin-bottom:50px;
+		margin-right:50px;
+		margin-top: 10px;
+}
+
+#devp4 /* Texte ratus */
+	{
+		display: inline-block;
+		width: 350px;
+		padding-right: 50px;
+		padding-top: 20px;
+		font-size: 19px;
+		font-family: Arial;
+		color: white;
+		float:right;	
+}
+
+footer /* Pied de page */
+	{
+		display: block;
+		color:white;
+		/* Placer texte */
+		text-align: center;
+		font-style:italic;
+		/* Bordur ect.. */
+		border-width:1px 0px 1px 0px;
+		border-style:solid ;
+		border-color:white;
+		padding:0 10px; /*marge du texte (intérieur de rectangle)*/
+        width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float:right;
+		margin-bottom: 2%;
+		margin-top: 25px;
+	}
+
+#pub /*pub (ajout rapide)*/
+{
+	display:block;
+	position:absolute;
+    float:left;
+	width:85px;
+	color: black; 
+	background-color: #7092BE;
+	font: 12px Arial ; 
+	margin-left:35px;
+	margin-top: -100px;
+	text-align: center;
+	border-radius: 11px;
+	border: solid #FFEB63 3px;
+	padding: 2px;
+	font-family: Arial black;
+}
+
+img {
+	max-width: 100%;
+	/* un max-width de 100% forcera les images
+	à être soit plus petites que leur conteneur soit de la même largeur. */
+}
+
+

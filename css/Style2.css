@@ -1,0 +1,336 @@
+div/* Block principal */
+	{
+		/* Block de 100% centré au milieu */
+		display: block; /* créé une zone */
+		width: 100%; /* Largeur */
+		
+
+	}
+	
+#div2/* Fond hors block */
+	{
+		/* Ne pas avoir de bors blancs */
+		position:absolute; 
+		top:0;
+		left:0;
+		background: fixed center repeat; /* center l'image et la bloquer */
+		-webkit-background-size: cover; /* pour Chrome et Safari */
+		-moz-background-size: cover; /* pour Firefox */
+		-o-background-size: cover; /* pour Opera */
+		background-size: cover; /* version standardisée */
+		/* Largeur 
+		width: 100%; */
+		/* Hauteur 
+		height: 100%; */
+		/* background: no-repeat; ne pas répétr l'image */
+	}
+
+head /* entête */
+{
+}
+
+h1 /* titre */
+{
+	text-align: center;
+	color: white;
+	border: solid white 3px;
+	text-shadow: 1px 1px 2px #A88486, 0 0 1em #A88486, 0 0 0.2em #A88486;
+	border-radius: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #765252;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 3.5vw;
+	font-family: cursive;
+}
+#base /*Présentation global*/
+{
+	display: block;
+	width: 50%;
+	margin-left:25%;
+	margin-right:25%;
+	border: solid white 3px;
+	background-color: #765252;
+	height: 150px;
+	border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+#textpres /* Présentation cuisine texte */
+{
+	display: block;
+	float: left;
+    width: 60%;
+	height: 100%;
+	color: white;
+	font-size: vmin;
+	font-family: cursive;
+	padding-left: 5px;
+	padding-right: 5px;
+	overflow: auto;
+}
+
+#presenter /* block photo présentation photo */
+{
+	display: inline-block;
+    width: 35%;
+	float: right;
+	border-left: solid white 3px;
+	height: 100%;
+}
+
+#Insta_cuisine /* bouton insta */
+{
+	color: white;
+	font-family: cursive;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+#plat /* Tout le bloc des recettes */
+{
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+#recette1 /* logique */
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+	overflow: auto;
+}
+
+#recette2 /* logique */
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+	overflow: auto;
+}
+
+
+#recette3 /* logique */
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+	overflow: auto;
+}
+
+#recette4 /* logique */
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+	overflow: auto;
+	color: white; 
+	text-align: center;
+	font-family: arial black;
+	padding-top: 5px;
+	font-size: 1vw;
+}
+
+#rat1
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+}
+
+#Ratus1
+{
+
+	width: 100%;
+	float: left;
+}
+
+#rat2
+{
+	display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+}
+
+#Ratus2
+{
+	width: 100%;
+	float: left;
+}
+
+#rat3
+{
+		display: inline-block;
+	float: left;
+	width: 350px;
+	height: 540px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border: solid white 3px;
+	background-color: 34211d;
+	border-radius: 11px;
+	border: solid white 3px;
+}
+
+#Ratus3
+{
+	width: 100%;
+	float: left;
+}
+
+footer /* Pied de page */
+	{
+		display: block;
+		color:white;
+		/* Placer texte */
+		text-align: center;
+		font-style:italic;
+		/* Bordur ect.. */
+		border-width:1px 0px 1px 0px;
+		border-style:solid ;
+		border-color:white;
+		padding:0 10px; /*marge du texte (intérieur de rectangle)*/
+        width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		float:right;
+		margin-bottom: 2%;
+		margin-top: 25px;
+	}
+	
+#pub /* pub pour rekaros le dessinateur */
+{
+	display:block;
+    float:left;
+	width:85px;
+	border-radius: 11px;
+	border: solid white 3px;
+	padding: 2px;
+	font-family: Arial;
+	color: white;
+	background-color: #34211D;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#pub:hover /* pub pour rekaros le dessinateur:hover*/
+{
+	display:block;
+    float:left;
+	width:85px;
+	border-radius: 11px;
+	border: solid #7195A5 3px;
+	padding: 2px;
+	font-family: Arial;
+	color: #7195A5;
+	background-color: #34211D;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+#home /* bouton acceuil */
+{
+	display:block;
+    float:left;
+	width:50px;
+	margin-top: 120px;
+	margin-left: -75px;
+	margin-right: 50px;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	border: solid white 3px;
+	background-color: #121312;
+}
+
+#home:hover /* bouton acceuil:hover */
+{
+	display:block;
+    float:left;
+	width:50px;
+	margin-top: 120px;
+	margin-left: -75px;
+	margin-right: 50px;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	border: solid #7195A5 3px;
+	background-color: #121312;
+}
+
+#italie /* drapeau italien */
+{
+	display:inline-block;
+	width:40px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	/* un max-width de 100% forcera les images
+	à être soit plus petites que leur conteneur soit de la même largeur. */
+}
+

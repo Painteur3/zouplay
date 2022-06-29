@@ -1,0 +1,57 @@
+
+.flex-container-twitch {
+  display: block;
+  background-color: #f4f7f8;
+  /* resize: horizontal; /* Agrandir le carré > horizontal ou vertical */
+  overflow: hidden; /* les lettres ne depasses pas du cadre */
+  display: flex; /* mettre les trucs à coter des autres */
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.item-twitch { /* item texte twitch */
+
+  /* padding: 0.5em; /* espaces des items */
+  width: 30%; /* largeur des items*/
+  background-color: black;
+  color: white;
+  font-family: OCR A Std, monospace; 
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+.item-twitch-v  /* item vidéos  twitch*/
+	{
+     width: 70%;	 /* largeur des items*/
+	 height: 400px;
+	 margin-left: 50px;
+	}
+	
+.initial {
+flex: initial; /* Laisses les items à leurs tailles de base mais peuvent se réduire */
+}
+
+.auto { /* Permet de mettre les items sur toute la largeur */
+flex: auto;
+}
+
+.none { /* les items restent stoiques */
+flex: none;
+}
+
+/* prenent plus ou moin de longueur selon le nombre */
+.four {
+  flex: 4; 
+}
+
+.two {
+  flex: 3;
+}
+
+.one {
+  flex: 2;
+}
