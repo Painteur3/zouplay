@@ -1030,7 +1030,7 @@ Media queries
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
+		background-color:rgb(255, 255, 255);
 	}
 	.navbar .navbar-collapse ul.nav {
 		background-color: #444;
